@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Video Comment Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='web.css') }}">
+</head>
+<body>
+<section>
+    <div class="container">
+    <h1>YouTube Video Comment Scraper</h1>
+    <p>Enter the YouTube video ID</p>
+    <form action="{{ url_for('scrape')}}" method="POST" autocomplete="off">
+        <input type="text" placeholder="Enter video ID here" name="video_link" id="video_link" required>
+        <button type="submit">Scrape</button>
+    </form>
+        {% if error %}
+        <div class="error-message">
+            {{ error }}
+        </div>
+        {% endif %}
+        <!-- ADD INSTRUCTIONS ON HOW TO USE PROGRAM -->
+    </div>
+</section>
+</body>
+</html>

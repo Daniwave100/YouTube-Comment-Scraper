@@ -1,0 +1,4 @@
+# nixpacks.toml
+
+[start]
+cmds = ["gunicorn YouTubeCommentScraper_:app"]
