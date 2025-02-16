@@ -25,7 +25,6 @@ Read more about my project @ https://daniwave100.github.io/DanielPersonalPage/ !
   - 4️⃣ Stores in CSV – The extracted data (username, comment, date, etc.) is stored in a structured CSV file for further processing
 
  ## 📈 Future Improvements
-  - ✅ Optimize API Calls – Implement caching and rate-limit handling for improved efficiency
   - ✅ JavaScript error-handling – Improve user-expierience with better error-handling and cleaner interface 
   - ✅ Expand Scraping Capabilities – Extract more metadata (Perhaps use profile pictures as a training  parameter?)
   - ✅ Integrate with my AI Model – Directly send extracted data into an AI classifier to train model and detect bot-generated comments (ROC curves, classifier matrix)
