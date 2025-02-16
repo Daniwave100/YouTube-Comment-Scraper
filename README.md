@@ -19,7 +19,7 @@ Read more about my project @ https://daniwave100.github.io/DanielPersonalPage/ !
 	-	Flask - Integrates a web-based UI for ease of use
 
 ## 📊 How it Works
-	- 1️⃣ User Inputs Video ID – The program takes a valid YouTube video ID as input
+  - 1️⃣ User Inputs Video ID – The program takes a valid YouTube video ID as input
   - 2️⃣ API Fetches Comments – The script uses the YouTube Data API to collect comments and metadata
   - 3️⃣ Handles Pagination – The scraper automatically loops through API pages to extract all available comments
   - 4️⃣ Stores in CSV – The extracted data (username, comment, date, etc.) is stored in a structured CSV file for further processing
