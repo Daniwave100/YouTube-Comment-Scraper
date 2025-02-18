@@ -31,4 +31,4 @@ Read more about my project @ https://daniwave100.github.io/DanielPersonalPage/ !
 
 ## ⚠️ Current Development Status
 
-💡 Future iterations will focus on making this tool more robust by integrating real-time AI classification, a web-based UI, and better data visualization tools.
+💡 Future iterations will focus on making this tool more robust by integrating real-time text classification, a better web-based UI, and better data visualization tools.
