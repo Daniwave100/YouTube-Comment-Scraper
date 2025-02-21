@@ -7,8 +7,9 @@ Read more about my project @ https://daniwave100.github.io/DanielPersonalPage/ !
 
 ## 🔍 Features
 
-- ✔ Efficient Data Extraction – Uses the YouTube Data API to scrape comments from any public video
+- ✔ Efficient Data Extraction – Uses the YouTube Data API to scrape comments with key metrics (likes, reply count, etc.) from any public video
 - ✔ Structured Data Output – Stores extracted comments in a CSV file
+- ✔ Feature engineered new parameters to be used for ML text-classification
 - ✔ User-friendly front-end interface
 
 ## 🛠️ Tech Stack
